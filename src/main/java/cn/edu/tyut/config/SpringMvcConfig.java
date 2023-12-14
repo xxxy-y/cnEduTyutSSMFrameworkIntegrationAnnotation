@@ -20,5 +20,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
         @ComponentScan("cn.edu.tyut.controller")
 })
 @EnableWebMvc
+
 public class SpringMvcConfig implements WebMvcConfigurer {
 }

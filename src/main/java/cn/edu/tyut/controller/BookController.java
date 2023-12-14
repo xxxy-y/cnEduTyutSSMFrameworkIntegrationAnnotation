@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @Package_Name cn.edu.tyut.controller
  */
 @Controller
+
 public class BookController {
     private BookService bookService;
 
