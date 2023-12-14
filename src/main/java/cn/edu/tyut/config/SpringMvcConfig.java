@@ -5,6 +5,7 @@ import org.springframework.context.annotation.ComponentScans;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * @Author 羊羊
@@ -19,5 +20,5 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
         @ComponentScan("cn.edu.tyut.controller")
 })
 @EnableWebMvc
-public class SpringMvcConfig {
+public class SpringMvcConfig implements WebMvcConfigurer {
 }
