@@ -17,6 +17,7 @@ import javax.sql.DataSource;
  * @Time 20:02
  * @Package_Name cn.edu.tyut.config
  */
+@Configuration
 @PropertySources({
         @PropertySource("classpath:jdbc.properties")
 })
